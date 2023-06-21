@@ -7,8 +7,8 @@ import numpy as np
 
 # Folder path containing the images and annotation files
 
-src_folder = 'E:/Dataset - temp/large'
-dest_folder = 'E:/June/temp/temp'
+src_folder = 'D:/test/SharadaScriptureDataset/Annotated Dataset/large-dataset'
+dest_folder = 'D:/test/temp'
 
 # Iterate over the files in the folder
 for file_name in os.listdir(src_folder):
