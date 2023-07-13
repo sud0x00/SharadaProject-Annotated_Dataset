@@ -9,6 +9,7 @@ Order of execution :
 3. Label Operations -> It provides insight on the label folder (number of images , deletion of outliers)
 4. Renaming the folders -> The characters are provided group numbers to avoid unicode encoding errors while training. The group numbers can be random or the following system can be used. 
 
+poly_rect_crop.py => label2folder.py => label_operations.py => rename_folder.py
 
 ● All the characters starting with each of the 34 consonants क, ख, ग, घ , ... श, ष, स, ह, ळ will be
 added into into 34 different groups. \
