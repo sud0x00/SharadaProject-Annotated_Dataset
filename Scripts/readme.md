@@ -11,11 +11,11 @@ Order of execution :
 
 
 ● All the characters starting with each of the 34 consonants क, ख, ग, घ , ... श, ष, स, ह, ळ will be
-added into into 34 different groups.
+added into into 34 different groups. \
 ● Group 1 contains क, का, क, क, ..., कं, कः, and all compound letters that start with क are
-included in this group. क्क , क्खी, क्या, क्ले, क्ली, क्षी, etc. all come in this group.
-● All Vowel letters - अ, आ, इ, ई, ... अं, अः, ॐ are placed in Group 34.
-● All punctuation marks are placed in Group 35.
-● All digits 0, 1, 2, ...9 and other numbers are placed in Group 36.
-● Group 37 is reserved for all the letters which do not belong to the previous groups.
+included in this group. क्क , क्खी, क्या, क्ले, क्ली, क्षी, etc. all come in this group. \
+● All Vowel letters - अ, आ, इ, ई, ... अं, अः, ॐ are placed in Group 34. \
+● All punctuation marks are placed in Group 35. \
+● All digits 0, 1, 2, ...9 and other numbers are placed in Group 36. \
+● Group 37 is reserved for all the letters which do not belong to the previous groups. \
 
