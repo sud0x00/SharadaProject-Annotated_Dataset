@@ -1,8 +1,7 @@
 import os
-SOURCE_DIR = "temp"
 
 # Step 1: Read the names of all folders
-folder_names = os.listdir(SOURCE_DIR)  # Assuming the program is executed in the directory containing the folders
+folder_names = os.listdir("E:/June/temp/test")  # Assuming the program is executed in the directory containing the folders
 
 # Step 2: Create a dictionary with folder names and corresponding values
 folder_dict = {}
@@ -11,7 +10,7 @@ for i, folder_name in enumerate(folder_names):
 
 # Step 3: Rename files inside folders
 for folder_name, value in folder_dict.items():
-    folder_path = os.path.join(SOURCE_DIR, folder_name)
+    folder_path = os.path.join('E:/June/temp/test', folder_name)
     files = os.listdir(folder_path)
     for file_name in files:
         if file_name.startswith(folder_name):
@@ -22,6 +21,6 @@ for folder_name, value in folder_dict.items():
 
 # Step 4: Rename folders
 for folder_name, value in folder_dict.items():
-    old_folder_path = os.path.join(SOURCE_DIR, folder_name)
-    new_folder_path = os.path.join(SOURCE_DIR, str(value))
+    old_folder_path = os.path.join('E:/June/temp/test', folder_name)
+    new_folder_path = os.path.join('E:/June/temp/test', str(value))
     os.rename(old_folder_path, new_folder_path)
