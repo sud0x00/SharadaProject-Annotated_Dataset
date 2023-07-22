@@ -98,7 +98,7 @@ for file_name in os.listdir(src_folder):
                     new_filename = os.path.join(dest_folder, f"{label}_{random_string}.jpg")
 
                     # Save the rectangular image as JPEG
-                    rectangular_image.save(new_filename, format='JPEG', quality=90)
+                    rectangular_image.save(new_filename, format='JPEG', quality=100)
 
             if shape_type == 'rectangle':
                 # Find the minimum and maximum x, y coordinates
@@ -117,4 +117,4 @@ for file_name in os.listdir(src_folder):
                 new_filename = os.path.join(dest_folder, f"{label}_{random_string}.jpg")
 
                 # Save the cropped image
-                cropped_image.save(new_filename, format='JPEG', quality=90)
+                cropped_image.save(new_filename, format='JPEG', quality=100)
