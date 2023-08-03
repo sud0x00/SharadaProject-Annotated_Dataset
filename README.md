@@ -8,6 +8,8 @@
 
 ## Scripts
   This folder contains all the scripts which can be used in the creation of the training data. 
-  * poly_rect_crop : It extracts the LabelMe annotated data.
+  * poly_rect_crop : Used for the extraction of the LabelMe annotated data.
+
+  NewVisualization.ipynb -> Can be used to generate & visualize the dataset. 
 
 ## Main Repo -> https://github.com/sud0x00/SharadaProject-Documentation
